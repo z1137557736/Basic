@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/priority_queue_21142.dir/codeup/priority_queue_21142.cpp.o  -o priority_queue_21142 

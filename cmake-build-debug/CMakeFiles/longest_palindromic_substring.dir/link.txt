@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/longest_palindromic_substring.dir/dp/longest_palindromic_substring.cpp.o  -o longest_palindromic_substring 

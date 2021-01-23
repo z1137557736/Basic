@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/binary_search.dir/threshold/binary_search.cpp.o  -o binary_search 

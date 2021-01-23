@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/BFS_traversal.dir/data_strcut/graph/BFS_traversal.cpp.o  -o BFS_traversal 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/BFS_maze.dir/data_strcut/search/BFS_maze.cpp.o  -o BFS_maze 

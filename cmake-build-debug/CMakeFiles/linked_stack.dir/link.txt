@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/linked_stack.dir/data_strcut/linked/linked_stack.cpp.o  -o linked_stack 

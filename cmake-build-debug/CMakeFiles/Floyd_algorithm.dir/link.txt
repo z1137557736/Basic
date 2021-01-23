@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Floyd_algorithm.dir/data_strcut/graph/shortest_path/Floyd_algorithm.cpp.o  -o Floyd_algorithm 

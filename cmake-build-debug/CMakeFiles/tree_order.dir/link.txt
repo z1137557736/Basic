@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/tree_order.dir/data_strcut/tree/tree_order.cpp.o  -o tree_order 

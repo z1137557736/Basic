@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Prim_mst.dir/data_strcut/graph/mst/Prim_mst.cpp.o  -o Prim_mst 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/heap_operation.dir/data_strcut/heap/heap_operation.cpp.o  -o heap_operation 

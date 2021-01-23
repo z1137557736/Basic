@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/simple_calculator.dir/threshold/simple_calculator.cpp.o  -o simple_calculator 

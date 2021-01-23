@@ -1,1 +1,0 @@
-/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/array_queue.dir/data_strcut/array/array_queue.cpp.o  -o array_queue 
