@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/kruskal_mst.dir/data_strcut/graph/mst/kruskal_mst.cpp.o  -o kruskal_mst 

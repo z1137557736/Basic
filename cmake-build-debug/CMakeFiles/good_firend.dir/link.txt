@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/good_firend.dir/data_strcut/ufs/good_firend.cpp.o  -o good_firend 

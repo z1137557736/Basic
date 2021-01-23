@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ufs_operation.dir/data_strcut/ufs/ufs_operation.cpp.o  -o ufs_operation 

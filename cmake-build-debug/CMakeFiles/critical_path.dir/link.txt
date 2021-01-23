@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/critical_path.dir/data_strcut/graph/longest_path/critical_path.cpp.o  -o critical_path 

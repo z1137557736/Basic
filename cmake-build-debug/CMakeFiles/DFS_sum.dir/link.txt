@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/DFS_sum.dir/data_strcut/search/DFS_sum.cpp.o  -o DFS_sum 

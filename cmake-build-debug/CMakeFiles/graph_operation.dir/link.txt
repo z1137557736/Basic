@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/graph_operation.dir/data_strcut/graph/graph_operation.cpp.o  -o graph_operation 

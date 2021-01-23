@@ -1,0 +1,3 @@
+struct linked_stack {
+
+};

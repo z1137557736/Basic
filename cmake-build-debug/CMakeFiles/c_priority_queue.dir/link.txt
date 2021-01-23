@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/c_priority_queue.dir/stl/c_priority_queue.cpp.o  -o c_priority_queue 

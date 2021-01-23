@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/dijkstra_algorithm.dir/data_strcut/graph/shortest_path/dijkstra_algorithm.cpp.o  -o dijkstra_algorithm 

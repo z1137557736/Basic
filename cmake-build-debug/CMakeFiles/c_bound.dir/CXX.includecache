@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhangchenxu/C++/Basic/stl/c_bound.cpp
+iostream
+/Users/zhangchenxu/C++/Basic/stl/iostream
+algorithm
+/Users/zhangchenxu/C++/Basic/stl/algorithm
+
