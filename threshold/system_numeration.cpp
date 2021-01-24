@@ -2,20 +2,24 @@
 
 using namespace std;
 
-int b_1022() {
-	// 十进制转d进制
-	int a, b, d, sum;
-	// 除基取余法
-	scanf("%d %d %d", &a, &b, &d);
-	sum = a + b;
-	int arr[31], num = 0;
-	do {
-		arr[num++] = sum % d;
-		sum /= d;
-	} while(sum != 0);
-	for (int i = num - 1; i >= 0; i--) {
-		printf("%d", arr[i]);
-	}
+/**
+ * 10进制转2进制（除基取余法）
+ */
+int dec2binary(int num) {
+    // 存放二进制的数组
+    int arr[31];
+    // 记录二进制的位数
+    int sum = 0;
+    do {
+        // 取余
+        arr[sum++] = num % 2;
+        // 除基
+        num /= 2;
+    } while (num != 0); // 商为0时，退出循环
+    // 逆序输出
+    for (int i = sum - 1; i >= 0; i--) {
+        printf("%d", arr[i]);
+    }
 }
 
 /**
@@ -77,6 +81,8 @@ int main() {
 	printf("%d\n", fibonacci(5));
 	printf("%d\n", to10(111, 26));
 	printf("%d %d", hashFunc("B", 1), hashFunc("BBB", 3));*/
-	return 0;
+//	printf("%d", hashFunc("BBB", 3));
+    dec2binary(25);
+    return 0;
 }
 
