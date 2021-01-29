@@ -21,7 +21,7 @@ int main() {
     }
     printf("\n");
     // 左闭右开的思想，vi.begin()获取的是最后一个元素的下一个
-    for (vector<int>::iterator it = vi.begin(); it != vi.end(); it++) {
+    for (auto it = vi.begin(); it != vi.end(); it++) {
         printf("%d ", *it);
     }
     printf("\n");

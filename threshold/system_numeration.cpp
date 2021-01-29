@@ -36,7 +36,10 @@ int to10(int x, int p) {
 	}
 	return y;
 }
-
+/**
+ * 1111 15
+ * 1 3 7 15
+ */
 // 字符串hash
 int hashFunc(char S[], int len) {
 	int id = 0;
