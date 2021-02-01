@@ -4,13 +4,15 @@
 using namespace std;
 
 /**
- * A+B for Polynomials
- * 题意：关于多项式加法
+ * Product of Polynomials
+ * 题意：关于多项式乘法
+ *
+ * 思路：temp用来存放多项式A。在读取多项式B时，每个单项式都可以与多项式A做乘积，最后合并同类项即可
  */
 
 int n;
-// 存放多项式结果
-map<int, double> mp;
+// 临时存放多项式A ｜ 存放多项式相乘结果
+map<int, double> temp, mp;
 
 int main() {
     // 多项式的项数 | 指数
@@ -22,17 +24,24 @@ int main() {
     // 多项式相加，指数相同的项进行系数相加
     while (n--) {
         scanf("%d %lf", &expo, &coef);
-        mp[expo] = coef;
+        temp[expo] = coef;
     }
     // 读取多项式B的项数
     scanf("%d", &n);
     while (n--) {
         scanf("%d %lf", &expo, &coef);
-        // 指数相同，合并同类项
-        if (mp[expo]) {
-            mp[expo] += coef;
-        } else {
-            mp[expo] = coef;
+        // 单项式跟多项式A相乘
+        for (auto it = temp.begin(); it != temp.end(); it++) {
+            // 同底数幂相乘，底数不变，指数相加
+            int e = expo + it->first;
+            // 系数相乘
+            double c = coef * it->second;
+            // 指数相同，合并同类项
+            if (mp[e]) {
+                mp[e] += c;
+            } else {
+                mp[e] = c;
+            }
         }
     }
     // 删除系数为0的多项式
